@@ -1,12 +1,12 @@
 USE pizza_fiesta;
 
 CREATE Table clientes (
-    clientes_id INT PRIMARY KEY,
+    clientes_id INT PRIMARY KEY AUTO_INCREMENT,
     nombre VARCHAR(50),
     telefono VARCHAR(50),
     dirrecion VARCHAR(50)
 );
-
+DROP TABLE clientes;
 CREATE Table pedidos (
     id INT PRIMARY KEY,
     producto VARCHAR(50),
