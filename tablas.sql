@@ -24,4 +24,11 @@ CREATE Table pagos (
     id BIGINT,
     tipo_pago BIGINT,
     costo_total BIGINT
-)
+);
+
+CREATE Table producto (
+    producto_id INT,
+    nombre VARCHAR(50),
+    tipo BIGINT,
+    combo VARCHAR(50)
+);
