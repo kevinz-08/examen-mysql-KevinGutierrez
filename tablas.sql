@@ -6,3 +6,10 @@ CREATE Table clientes (
     telefono VARCHAR(50),
     dirrecion VARCHAR(50)
 );
+
+CREATE Table pedidos (
+    id INT PRIMARY KEY,
+    producto VARCHAR(50),
+    ingredientes VARCHAR(50)
+);
+
