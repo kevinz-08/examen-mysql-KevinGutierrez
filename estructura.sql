@@ -18,3 +18,11 @@ INSERT INTO producto (
     combo
 ) VALUES
     (1, 'pizza ranchera', 'pizza', 'null');
+
+INSERT INTO producto (
+    producto_id,
+    nombre,
+    tipo,
+    combo
+) VALUES
+    (2, 'gaseosa postobon', 'bebida', 'null');
