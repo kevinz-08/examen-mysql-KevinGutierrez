@@ -19,3 +19,9 @@ CREATE Table detalle_pedidos (
     pedido_id INT,
     producto_id INT
 );
+
+CREATE Table pagos (
+    id BIGINT,
+    tipo_pago BIGINT,
+    costo_total BIGINT
+)
