@@ -32,3 +32,8 @@ CREATE Table producto (
     tipo BIGINT,
     combo VARCHAR(50)
 );
+
+CREATE Table tipo_producto (
+    id BIGINT,
+    nombre VARCHAR(50)
+);
