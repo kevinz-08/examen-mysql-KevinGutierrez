@@ -13,3 +13,9 @@ CREATE Table pedidos (
     ingredientes VARCHAR(50)
 );
 
+CREATE Table detalle_pedidos (
+    id INT PRIMARY KEY,
+    cantidad_productos INT,
+    pedido_id INT,
+    producto_id INT
+);
