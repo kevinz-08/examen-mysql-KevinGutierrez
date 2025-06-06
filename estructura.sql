@@ -10,3 +10,11 @@ INSERT INTO clientes (
     (2, 'tristepe', '555-8743', 'Vista Hermosa'),
     (3, 'alejandro', '555-9875', 'la cumbre'),
     (4, 'sebastian', '555-8437', 'san francisco');
+
+INSERT INTO producto (
+    producto_id,
+    nombre,
+    tipo,
+    combo
+) VALUES
+    (1, 'pizza ranchera', 'pizza', 'null');
