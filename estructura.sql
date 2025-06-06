@@ -26,3 +26,18 @@ INSERT INTO producto (
     combo
 ) VALUES
     (2, 'gaseosa postobon', 'bebida', 'null');
+
+INSERT INTO pedidos (
+    id,
+    producto,
+    ingredientes
+) VALUES
+    ('1', 'pizza ranchera', 'sin ingredientes adicionales');
+
+INSERT INTO detalle_pedidos (
+    id,
+    cantidad_productos,
+    pedido_id,
+    producto_id
+) VALUES
+    ('1', '1', '1', '1')
