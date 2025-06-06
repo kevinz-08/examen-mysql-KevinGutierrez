@@ -7,6 +7,6 @@ INSERT INTO clientes (
     dirrecion
 ) VALUES
     (1, 'juan diego', '555-1234', 'calle 104 - provenza'),
-    (1, 'tristepe', '555-8743', 'Vista Hermosa'),
-    (1, 'alejandro', '555-9875', 'la cumbre'),
-    (1, 'sebastian', '555-8437', 'san francisco');
+    (2, 'tristepe', '555-8743', 'Vista Hermosa'),
+    (3, 'alejandro', '555-9875', 'la cumbre'),
+    (4, 'sebastian', '555-8437', 'san francisco');
