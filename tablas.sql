@@ -37,3 +37,11 @@ CREATE Table tipo_producto (
     id BIGINT,
     nombre VARCHAR(50)
 );
+
+CREATE Table combo (
+    id INT,
+    nombre VARCHAR(50),
+    tipo_pizza VARCHAR(50),
+    tipo_bebida VARCHAR(50),
+    precio BIGINT
+);
